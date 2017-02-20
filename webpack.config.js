@@ -23,7 +23,7 @@ module.exports = {
 				loader: 'react-hot-loader!babel-loader'
 			},
 			{
-				test: /\.css$/,
+				test: /\.scss$/,
 				loaders: 'style-loader!css-loader!sass-loader'
 			}
 		] 

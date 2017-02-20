@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import todos from './todos';
 import Header from './components/Header';
 import Todo from './components/Todo'
-import './styles.css';
+import './styles.scss';
 
 class App extends React.Component {
 	constructor(props) {
