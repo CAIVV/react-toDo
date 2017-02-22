@@ -28,7 +28,7 @@ class Todo extends React.Component {
 
 					<span className="todo-title">{this.props.title}</span>
 					<Button classname="edit icon" icon="edit" onClick={() => this.setState({editing: true}) } />
-					<Button className="delete icon" icon="delete" onClick={() => props.onDelete(props.id)} />
+					<Button className="delete icon" icon="delete" onClick={() => this.props.onDelete(this.props.id)} />
 				</div>
 			);
 		}
