@@ -27,7 +27,8 @@ class Todo extends React.Component {
 					<Checkbox checked={this.props.completed} onChange={() => this.props.onStatusChange(this.props.id)} />
 
 					<span className="todo-title">{this.props.title}</span>
-					<Button classname="edit icon" icon="edit" onClick={() => this.setState({editing: true}) } />
+					
+					<Button className="edit icon" icon="edit" onClick={() => this.setState({editing: true}) } />
 					<Button className="delete icon" icon="delete" onClick={() => this.props.onDelete(this.props.id)} />
 				</div>
 			);
